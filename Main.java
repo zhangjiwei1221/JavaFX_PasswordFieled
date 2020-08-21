@@ -72,7 +72,7 @@ public class Main extends Application {
         // 当鼠标移动到 👁 附近时修改鼠标指针样式，否则为默认的 I 样式
         double x = disPwd.getWidth() + 70;
         if (event.getSceneX() > x) {
-            disPwd.setStyle("-fx-cursor: pointer;");
+            disPwd.setStyle("-fx-cursor: hand;");
         } else {
             disPwd.setStyle("-fx-cursor: text;");
         }
